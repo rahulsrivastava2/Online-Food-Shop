@@ -1,0 +1,331 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+#top {
+    display: flex;
+    flex-direction: column;
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+#navbar img {
+    display: block;
+    width: 50px;
+    height: 55  px;
+    margin: auto;
+ 
+}
+
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+#navcontent {
+    display: flex;
+    justify-content: center;
+}
+
+
+ul li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+ul li a {
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+#container1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 63vh;
+    margin-top: 5px;
+}
+
+
+#container1::before {
+    content: '';
+    background: url("https://i.pinimg.com/originals/33/ef/8b/33ef8b9c0b902154a6cd4103a21275ef.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 59vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-bottom-left-radius: 100px;
+}
+
+#row1 {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+.btn {
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: yellow;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color:orange;
+}
+
+#container3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row2 {
+    width: 25vw;
+    height: 25vh;
+    box-shadow: 5px 5px 5px 5px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 38px;
+    border-radius: 25px;
+}
+
+#row2::before {
+    content: '';
+    background: url('https://thumbs.dreamstime.com/z/fast-food-restaurant-menu-template-price-list-banner-cm-fast-food-restaurant-menu-template-price-list-banner-sets-burgers-hot-168590743.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 25px;
+    width: 25vw;
+    height: 20vh;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+#row3 {
+    width: 25vw;
+    height: 25vh;
+    box-shadow: 5px 5px 5px 5px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 38px;
+    border-radius: 25px;
+}
+
+#row3::before {
+    content: '';
+    background: url('https://s.tmimgcdn.com/scr/1200x627/290400/food-and-restaurant-facebook-cover-banner-design-036_290452-original.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 25px;
+    width: 25vw;
+    height: 20vh;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+#top3 {
+    margin-top: 5px;
+    text-align: center;
+    background: orange;
+    color: black;
+    border:2px solid black;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 20px;
+}
+
+#row4 {
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url('https://www.clubmahindra.com/blog/media/section_images/bannerlarg-99cf5e016274bf0.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+
+#row5 {
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url('https://png.pngtree.com/thumb_back/fw800/background/20231009/pngtree-artfully-presenting-the-south-indian-breakfast-staple-idly-on-image_13604389.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+
+#row6 {
+    width: 30vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url('https://miro.medium.com/v2/resize:fit:1400/1*0ILYOwGzf1iSF8Fz-TyNiw.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+
+#ContactUs {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:orange;
+}
+
+.form-shape input,
+.form-shape select,
+.form-shape textarea {
+    width: 92%;
+    padding: 0.5rem;
+}
+
+
+::placeholder {
+    color: grey;
+}
+
+
+@media only screen and (max-width:1131px) {
+    #row4 {
+        width: 42vw;
+    }
+
+    #row5 {
+        width: 45vw;
+    }
+
+    #row6 {
+        margin-top: 20px;
+        width: 90vw;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:781px) {
+    #row4 {
+        width: 84vw;
+        margin: auto;
+        margin-left: 22px;
+    }
+
+    #row5 {
+
+        width: 84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+
+    #row6 {
+        width: 84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #row4 {
+        width: 78vw;
+        margin: auto;
+        margin-left: 3px;
+    }
+
+    #row5 {
+
+        width: 78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+
+    #row6 {
+        width: 78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+}
+
+@media only screen and (min-height:1000px) {
+    #navbar {
+        height: 10vh;
+    }
+
+    #container1::before {
+        height: 39vh;
+    }
+
+    #container1 {
+        height: 44vh
+    }
+}
